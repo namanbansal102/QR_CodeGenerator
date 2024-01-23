@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="qr.css">
+    <script src="https://kit.fontawesome.com/70972682bd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1 class="heading">FLOWCODE</h1>
+            <div class="options">
+                <ul>
+                    <li id="website" class="option"><i class="fa-solid fa-paperclip"></i>Website</li>
+                    <li id="upFile" class="option"><i class="fa-solid fa-upload"></i>Upload A File</li>
+                    <li id="message" class="option"><i class="fa-solid fa-message"></i>Text Message</li>
+                    <li id="image" class="option"><i class="fa-solid fa-image"></i>Image</li>
+                    <li id="doc" class="option"><i class="fa-solid fa-file"></i>Google Doc</li>
+                    <li id="instagram" class="option"><i class="fa-brands fa-instagram"></i>Instagram</li>
+                    <li id="facebook" class="option"><i class="fa-brands fa-facebook"></i>Facebook</li>
+
+                    <li id="youtube" class="option"><i class="fa-brands fa-youtube"></i>Youtube</li>
+                    <li id="wifi" class="option"><i class="fa-solid fa-wifi"></i>Wifi</li>
+                    <li id="email" class="option"><i class="fa-solid fa-envelope"></i>Email</li>
+                </ul>
+            </div>
+            <div class="popup"><h4 id="popupmessage">Your Message is:</h4></div>
+        </div>
+        <div class="mainbar"><div class="headings"><h1 id=head>Enter Your Website URL</h1>
+            <h4>Your Qr Code Would Be Generated Here</h4></div>
+            <input id="input" type="text" placeholder="Enter Your Url Here">
+            <h4>Choose Your Favourite Logo Here</h4>
+            <div class="mylogos">
+                <button class="logos" id="one"><img id="1" src="https://cdn-icons-png.flaticon.com/128/300/300221.png" alt="">
+                </button>
+                <button value="1" class="logos"><img src="https://cdn-icons-png.flaticon.com/128/6124/6124997.png" alt=""></button>
+                <button value="2" class="logos"><img src="https://cdn-icons-png.flaticon.com/128/733/733579.png" alt=""></button>
+                <button value="3" class="logos"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968523.png" alt=""></button>
+                <button value="4" class="logos"><img src="https://cdn-icons-png.flaticon.com/128/2875/2875433.png" alt=""></button>
+                <button value="5" class="logos"><img src="https://cdn-icons-png.flaticon.com/128/854/854878.png" alt=""></button>
+                <button value="6" class="logos"><img src="https://cdn-icons-png.flaticon.com/128/0/747.png" alt=""></button>
+                <button value="7" class="logos"><img src="https://cdn-icons-png.flaticon.com/128/562/562678.png" alt=""></button>
+                <button value="8" class="logos"><img src="https://cdn-icons-png.flaticon.com/128/10096/10096351.png" alt=""></button>
+                <button value="9" class="logos"><img src="https://cdn-icons-png.flaticon.com/128/825/825454.png" alt=""></button>
+                <button value="10" class="logos"><img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt=""></button>
+                <button value="11" class="logos"><img src="https://cdn-icons-png.flaticon.com/128/3670/3670166.png" alt=""></button>
+                <button value="12" class="logos"><img src="https://cdn-icons-png.flaticon.com/128/900/900618.png" alt=""></button>
+                <button value="13" class="logos"><img src="https://cdn-icons-png.flaticon.com/128/2780/2780137.png" alt=""></button>
+                <button value="14" class="logos"><img src="https://cdn-icons-png.flaticon.com/128/3976/3976625.png" alt=""></button>
+                <button value="15" class="logos"><img src="https://cdn-icons-png.flaticon.com/128/5611/5611037.png" alt=""></button>
+                <button value="16" class="logos"><img src="https://cdn-icons-png.flaticon.com/128/2301/2301162.png" alt=""></button>
+                <button value="17" class="logos"><img src="https://cdn-icons-png.flaticon.com/128/3158/3158480.png" alt=""></button>
+                <button  class="logos logoo"><label for="upload"><img id="logoUp" src="https://cdn-icons-png.flaticon.com/128/685/685686.png" alt=""><hr><br></nr><h4>Upload</h4></label><input id="upload" type="file"></button>
+            </div>
+           
+        </div>
+
+        <div class="generate-bar">
+            <div class="qr-image">
+                
+            </div>
+            <button id="generate">Generate</button>
+          <div class="h4">Select Your Dream Color</div>
+            <div class="colors">
+                <div class="color" id="c1"></div>
+                <div class="color" id="c2"></div>
+                <div class="color" id="c3"></div>
+                <div class="color" id="c4"></div>
+                <div class="color" id="c5"><h6 style="margin-top: 13px;">Custom</h6></div>
+            </div>
+            <div class="h4">Select Your Background Color</div>
+            <div class=" cco">
+                <div class="colorbg" id="c1c"></div>
+                <div class="colorbg" id="c2c"></div>
+                <div class="colorbg" id="c3c"></div>
+                <div class="colorbg" id="c4c"></div>
+                <div class="colorbg" id="c5c"><h6 style="margin-top: 13px;">Custom</h6></div>
+            </div>
+          
+            
+        </div>
+    </div>
+    <script src="qr.js"></script>
+    
+</body>
+</html>

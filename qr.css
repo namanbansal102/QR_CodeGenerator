@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}.navbar{
+ 
+    height: 99vh;
+    width: 20vw;
+}.options{
+  
+    
+}.option{
+    margin-left: 1rem;
+    list-style-type: none;
+    font-size: 19px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Mulish', sans-serif;
+    color: rgb(4, 255, 58);
+    
+}.options i{
+    
+    position: relative;
+    top: 2px;
+    padding-right: 15px;
+}.option:hover{
+    color: white;
+    background-color:  rgb(128, 250, 130);
+    border-radius: 7px;
+}.mainbar{
+  
+    width: 55vw;
+    display: grid;
+    place-items: center;
+}.headings h4{
+    color:  grey;
+    padding: 20px;
+}.headings h1{
+   
+    font-weight: 2200;
+}.generate-bar{
+
+    width: 25vw;
+    background-color: rgb(159, 242, 146);
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    align-items: center;
+    border-top-left-radius: 29px;
+    border-bottom-left-radius: 29px;
+}#qrGen{
+    
+    
+    
+}.qr-image{
+    
+    height: fit-content;
+    width: fit-content;
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+}.mainbar input{
+    border: 10px;
+    
+    margin-top: 14px;
+    margin-bottom: 10px;
+    width: 20vw;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    
+    border-bottom: 2px solid black;
+}#generate{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+background-color: rgb(182, 255, 193);
+margin-top: 10px;
+font-weight: bold;
+border: none;
+cursor: pointer;
+
+}#generate:hover{
+    background-color: rgb(136, 250, 197);
+}.logos img{
+    width: 100px;
+    height: 100px;
+   
+}.mylogos{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    background-color: white;
+    row-gap: 10px;
+    column-gap: 15px;
+}.mylogos button{
+    background-color: white;
+    border-radius: 15px;
+    padding: 3px;
+    cursor: pointer;
+    border: 1px solid rgb(65, 250, 148)
+   
+   
+}.mylogos button:hover{
+    transform: scale(1.1);
+}
+.mylogos button:nth-child(19){
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    
+}#upload{
+    display: none;
+}.mylogos button:nth-child(19) img{
+    height: 50px;
+    width: 50px;
+}
+.mylogos button:nth-child(19) h4{
+    font-weight: bold;
+}#source{
+    border-radius: 50%;
+    background-color: white;
+}.color{
+    border: 50%;
+    height: 50px;
+    width: 50px;
+    
+    
+    cursor: pointer;
+    border: 5px solid rgba(130, 218, 250, 0.578);
+    border-radius: 10px;
+    
+}.colorbg{
+    border: 50%;
+    height: 50px;
+    width: 50px;
+    
+    
+    cursor: pointer;
+    border: 5px solid rgba(130, 218, 250, 0.578);
+    border-radius: 10px;
+    
+}.colors{
+    display: flex;
+    
+    column-gap: 1px;
+    margin-top: 6px;
+}.colors div:nth-child(1){
+    background-color: rgb(255, 177, 177);
+    
+}
+.colors div:nth-child(2){
+    background-color: rgb(165, 255, 174);
+
+}
+.colors div:nth-child(3){
+    background-color: rgb(229, 229, 229);
+
+}
+.colors div:nth-child(4){
+    background-color: rgb(252, 171, 255);
+
+}
+.colors div:nth-child(5){
+    background-color: rgb(255, 255, 255);
+
+}.color:hover{
+    border: 4px solid black;
+}.cco div:nth-child(1){
+    background-color: aqua;
+}
+.cco div:nth-child(2){
+    background-color: rgb(255, 162, 246);}
+.cco div:nth-child(3){
+    background-color: rgb(239, 169, 196);
+}
+.cco div:nth-child(4){
+    background-color: rgb(254, 203, 169);
+}
+.cco div:nth-child(5){
+   
+}.cco{
+    display: flex;
+    margin-top: 5px;
+}.h4{
+    margin-top: 5px;
+}.colorbg:hover{
+    border: 4px solid black;
+}.qr-image::before{
+    content: "";
+    width: 230px;
+    position: absolute;
+top: 50px;
+right: 55px;
+border-radius: 25px;
+   
+    height: 1px;
+    border: 2px solid black;
+    background-color: black;
+    animation: getting 0.1s linear infinite;
+    box-shadow: 3px 2px 56px 3px green;
+    
+}@keyframes getting{
+    from{
+        top: 50px;
+    }to{
+        top: 250px;
+    }
+}.qr-image.showPseudo::before{
+    display: block;
+}
+.qr-image.hidePseudo::before{
+    display: none;
+}.popup{
+    border-radius: 8px;
+    background-color: rgb(110, 255, 110);
+    height: 2rem;
+    padding: 6px;
+    padding-left: 6px;
+    animation:  popup 4s linear 1;
+
+}
+@keyframes popup{
+    form{
+        width: 150px;
+        display: block;
+    }
+    to{
+        width: 0px;
+        display: none;
+    }
+}.logobg{
+    border: 20px solid black;
+}
